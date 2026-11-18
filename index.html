@@ -33,6 +33,38 @@
                     width="600"
                     height="100">
             </section>
+            <section id="videos">
+                <!-- video -->
+                <video controls width="640" height="360">
+                    <source src="media/videos/sophia_intro.mp4" type="video/mp4">
+                    <source src="media/videos/sophia_intro.webm" type="video/webm">
+                    <track
+                    src="media/sophia_intro_caption.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+                    <p>Your browser cannot play this video.</p>
+                    <p><a href="media/sophia_intro.vtt">Download the video</a> to watch.</p>
+                </video>
+                <!-- iframe -->
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/qpYwyPKS3yM"
+                    title="Video title for accessibility"
+                    allowfullscreen>
+                </iframe>
+            </section>
+            <section>
+                <audio
+                    src="media/audio/nature-sounds.mp3"
+                    controls
+                    loop
+                    muted>
+                    Your browser cannot play this audio.
+                </audio>
+            </section>
         </main>
         <footer aria-label="Footer">
             <p>&copy; 2026 Our Website</p>
